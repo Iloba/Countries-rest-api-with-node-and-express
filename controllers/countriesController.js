@@ -177,7 +177,9 @@ const getASpecificCountry = async (req, res, next) => {
     const country = await Country.findById(countryId);
 
     if (!country) {
-        throw new Error("Cannot find country");
+       return res.status(404).json({
+            message: `Cannot find country with ${countryId}`,
+        });
     }
 
     res.status(200).json(country);
@@ -192,7 +194,9 @@ const updateACountry = async (req, res, next) => {
     const country = await Country.findById(countryId);
 
     if (!country) {
-        throw new Error(`Could not find country with id ${countryId}`);
+        return res.status(404).json({
+            message: `Cannot find country with ${countryId}`,
+        });
     }
 
     Object.keys(reqBody).forEach(key => {
@@ -217,7 +221,9 @@ const deleteACountry = async (req, res, next) => {
     const country = await Country.findByIdAndDelete(countryId);
 
     if (!country) {
-        throw new Error("Could not find Country");
+        return res.status(404).json({
+            message: `Cannot find country with ${countryId}`,
+        });
     }
 
     res.status(200).json({
