@@ -1,0 +1,65 @@
+2024-07-16T08:21:30.735Z - Error: ValidationError: "name" is not allowed to be empty
+Stack: Error: ValidationError: "name" is not allowed to be empty
+    at createANewCountry (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:21:15)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+undefined - Error: ValidationError: "name" is not allowed to be empty
+Stack: Error: ValidationError: "name" is not allowed to be empty
+    at createANewCountry (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:21:15)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 9:25:49 AM - Error: ValidationError: "name" is not allowed to be empty
+Stack: Error: ValidationError: "name" is not allowed to be empty
+    at createANewCountry (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:21:15)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 9:26:02 AM - Error: ValidationError: "name" is not allowed to be empty
+Stack: Error: ValidationError: "name" is not allowed to be empty
+    at createANewCountry (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:21:15)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 9:26:19 AM - Error: ValidationError: "name" is not allowed to be empty
+Stack: Error: ValidationError: "name" is not allowed to be empty
+    at createANewCountry (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:21:15)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+

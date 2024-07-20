@@ -1,0 +1,854 @@
+Tuesday, July 16th, 2024 9:32:03 AM - Error: ValidationError: "name" is not allowed to be empty
+Stack: Error: ValidationError: "name" is not allowed to be empty
+    at createANewCountry (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:21:15)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 9:37:24 AM - Error: ValidationError: "abbr" is not allowed to be empty
+Stack: Error: ValidationError: "abbr" is not allowed to be empty
+    at createANewCountry (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:21:15)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 9:56:34 AM - Error: Cannot set headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:795:10)
+    at ServerResponse.send (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:175:12)
+    at ServerResponse.json (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:279:15)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:69:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 9:56:36 AM - Error: Cannot set headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:795:10)
+    at ServerResponse.send (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:175:12)
+    at ServerResponse.json (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:279:15)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:69:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 9:56:38 AM - Error: Cannot set headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:795:10)
+    at ServerResponse.send (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:175:12)
+    at ServerResponse.json (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:279:15)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:69:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 9:56:39 AM - Error: Cannot set headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:795:10)
+    at ServerResponse.send (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:175:12)
+    at ServerResponse.json (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:279:15)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:69:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 9:58:00 AM - Error: Cannot set headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:795:10)
+    at ServerResponse.send (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:175:12)
+    at ServerResponse.json (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:279:15)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:69:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 9:58:04 AM - Error: Cannot set headers after they are sent to the client
+Stack: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:703:11)
+    at ServerResponse.header (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:795:10)
+    at ServerResponse.send (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:175:12)
+    at ServerResponse.json (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/response.js:279:15)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:69:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 10:01:47 AM - Error: No Country with name Afghanistans found
+Stack: Error: No Country with name Afghanistans found
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:47:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 10:01:50 AM - Error: No Country with name Afghanistans found
+Stack: Error: No Country with name Afghanistans found
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:47:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 10:05:35 AM - Error: No Country with name Afghanistans found
+Stack: Error: No Country with name Afghanistans found
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:47:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 10:33:16 AM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:110:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 10:35:30 AM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 2:40:43 PM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 2:40:44 PM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 2:40:46 PM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 2:40:55 PM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 2:40:56 PM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 2:40:57 PM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 2:40:58 PM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 2:40:59 PM - Error: Aggregate has empty pipeline
+Stack: MongooseError: Aggregate has empty pipeline
+    at Aggregate.exec (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose/lib/aggregate.js:1051:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:107:25)
+    at async /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:13
+
+Tuesday, July 16th, 2024 3:26:05 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:26:06 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:26:16 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:26:52 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:27:49 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:27:50 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:27:52 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:47 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:49 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:51 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:52 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:53 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:55 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:56 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:57 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:29:59 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:00 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:01 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:27 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:30 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:31 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:32 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:33 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:35 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:37 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:38 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:30:40 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:31:20 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:31:22 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:31:23 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:31:24 PM - Error: this.count is not a function
+Stack: TypeError: this.count is not a function
+    at Function.paginate (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/mongoose-paginate/index.js:45:21)
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+
+Tuesday, July 16th, 2024 3:37:12 PM - Error: Model is not defined
+Stack: ReferenceError: Model is not defined
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:122:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 3:39:17 PM - Error: page is not defined
+Stack: ReferenceError: page is not defined
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:122:26)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 3:39:20 PM - Error: page is not defined
+Stack: ReferenceError: page is not defined
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:122:26)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 4:12:59 PM - Error: countries is not defined
+Stack: ReferenceError: countries is not defined
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 4:13:07 PM - Error: countries is not defined
+Stack: ReferenceError: countries is not defined
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 4:13:09 PM - Error: countries is not defined
+Stack: ReferenceError: countries is not defined
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
+Tuesday, July 16th, 2024 4:13:11 PM - Error: countries is not defined
+Stack: ReferenceError: countries is not defined
+    at getAllCountries (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/controllers/countriesController.js:105:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/utils/tryCatch.js:4:19
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/user/Desktop/ALL NODE PROJECTS/Countries-api/node_modules/express/lib/router/index.js:175:3)
+
